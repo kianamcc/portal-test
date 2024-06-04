@@ -1098,6 +1098,61 @@ importers:
         specifier: ^1.6.0
         version: 1.6.0(@types/node@18.19.24)(@vitest/ui@1.6.0)(jsdom@21.1.2)(sass@1.75.0)
 
+  apps/portals/gray:
+    dependencies:
+      '@sage-bionetworks/synapse-types':
+        specifier: workspace:*
+        version: link:../../../packages/synapse-types
+      katex:
+        specifier: ^0.16.10
+        version: 0.16.10
+      pluralize:
+        specifier: ^8.0.0
+        version: 8.0.0
+      portals-base:
+        specifier: workspace:*
+        version: link:../../portals-base
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^5.3.4
+        version: 5.3.4(react@18.2.0)
+      synapse-react-client:
+        specifier: workspace:*
+        version: link:../../../packages/synapse-react-client
+      vite:
+        specifier: ^5.1.6
+        version: 5.1.6(@types/node@18.19.24)(sass@1.75.0)
+    devDependencies:
+      '@types/react':
+        specifier: 18.2.64
+        version: 18.2.64
+      '@types/react-dom':
+        specifier: 18.0.6
+        version: 18.0.6
+      sass:
+        specifier: ^1.72.0
+        version: 1.75.0
+      tslib:
+        specifier: ^2.6.2
+        version: 2.6.2
+      typescript:
+        specifier: ^5.4.3
+        version: 5.4.5
+      vite-config:
+        specifier: workspace:*
+        version: link:../../../packages/vite-config
+      vite-plugin-html:
+        specifier: ^3.2.2
+        version: 3.2.2(vite@5.1.6)
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0(@types/node@18.19.24)(@vitest/ui@1.6.0)(jsdom@21.1.2)(sass@1.75.0)
+
   apps/portals/template:
     dependencies:
       '@sage-bionetworks/synapse-types':
