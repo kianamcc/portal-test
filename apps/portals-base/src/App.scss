@@ -7,7 +7,6 @@
   $primary-bgcolor-rgba: unset
 );
 @use 'synapse-react-client/dist/template_style/Index.scss';
-@use './components/csbc-home-page/style/all.scss';
 
 @use 'Core';
 @use 'Markdown';
@@ -16,5 +15,3 @@
 @use 'ToggleSynapseObjects';
 @use './components/style/BrowseToolsPage';
 @use './components/DetailsPage/DetailsPage';
-@use './components/arkportal/style/_ARKWelcomePage';
-@use './components/challengeportal/style/_challengeportal';
