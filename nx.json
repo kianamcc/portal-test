@@ -30,5 +30,6 @@
       "dependsOn": ["^build"]
     }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "defaultProject": "gray"
 }
