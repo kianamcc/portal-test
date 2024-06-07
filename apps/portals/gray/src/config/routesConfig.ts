@@ -6,7 +6,7 @@ const routes: GenericRoute[] = [
     displayName: 'Explore',
     path: undefined,
     target: '_blank',
-    link: 'https://news.nfdataportal.org/',
+    link: '',
     synapseConfigArray: [],
   },
 ]

@@ -1,11 +1,8 @@
 // Override Portal variables in this file
 
 @use 'portals-base/style/variables' with (
-  $primary-action-color: #f00,
-  // TODO
-  $secondary-action-color: #0f0,
-  // TODO The secondary action color may be the same as the primary action color, if desired.
+  $primary-action-color: rgb(56, 56, 56),
+  $secondary-action-color: rgb(94, 94, 94),
   $header-url: '',
-  // Optional
-  $footer-url: '' // Optional
+  $footer-url: ''
 );
