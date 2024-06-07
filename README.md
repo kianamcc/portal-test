@@ -23,7 +23,7 @@ We're using [pnpm workspaces](https://pnpm.io/workspaces) to manage multiple pro
 
 ```
 ├── ./apps - Standalone web applications
-│  ├── ./portals - Generates sites for data portals. Contains configurations for each maintained portal.
+│  ├── ./portal - Generates sites for data portals. Contains configurations for each maintained portal.
 │  ├── ./SageAccountWeb - Standalone client-only React application for managing a Sage Bionetworks user account
 │  └── ./synapse-oauth-signin - Standalone client-only React application used to authenticate and consent to an app that uses Synapse OAuth2+OIDC services
 ├── ./projects - Libraries and utilities that may or may not be published to NPM
