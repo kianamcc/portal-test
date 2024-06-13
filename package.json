@@ -25,7 +25,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-testing-library": "^6.2.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^15.2.7",
     "nx": "^18.0.8",
     "rimraf": "^5.0.5",
     "typescript": "5.4.2"
