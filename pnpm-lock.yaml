@@ -1031,8 +1031,8 @@ importers:
         specifier: ^8.0.2
         version: 8.0.2(react@18.2.0)
       '@storybook/addon-themes':
-        specifier: ^8.0.2
-        version: 8.0.2
+        specifier: ^8.1.8
+        version: 8.1.8
       '@storybook/manager-api':
         specifier: ^8.0.2
         version: 8.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -5274,8 +5274,8 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-themes@8.0.2:
-    resolution: {integrity: sha512-qSc2CJFmAs6J1wB5zy5/sPUFFW0x/F52KvVzESmlBV7FEJlRm20d0qaSQFbPjjrfzOf9OSjxsx+W4ZX1dVGuvQ==}
+  /@storybook/addon-themes@8.1.8:
+    resolution: {integrity: sha512-VV0nQ8YUT7Jn22Bm+o8EaaLFf/BRoFc5bSkSVkoHOAWFBTvUaec0BDShise+dRnANTfEl44O/kxeY5S/Ie9X6A==}
     dependencies:
       ts-dedent: 2.2.0
     dev: true
